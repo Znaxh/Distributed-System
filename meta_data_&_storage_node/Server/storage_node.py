@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Directory where files will be stored
-UPLOAD_DIRECTORY = "/path/to/storage"
+UPLOAD_DIRECTORY = "E:/Projects/Academics/Distributed-System/meta_data_&_storage_node/Server/Server-storage"
 
 # Create the directory if it doesn't exist
 if not os.path.exists(UPLOAD_DIRECTORY):
